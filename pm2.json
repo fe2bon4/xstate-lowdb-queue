@@ -1,0 +1,7 @@
+{
+  "apps": {
+    "name": "machine-lowdb-queue",
+    "script": "ts-node",
+    "args": "src/index.ts"
+  }
+}
