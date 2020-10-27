@@ -2,6 +2,7 @@
   "apps": {
     "name": "machine-lowdb-queue",
     "script": "ts-node",
-    "args": "src/index.ts"
+    "args": "src/index.ts",
+    "ignore_watch": ["node_modules", "data/*.json", "dist"]
   }
 }
